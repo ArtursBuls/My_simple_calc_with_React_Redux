@@ -1,0 +1,27 @@
+.active {
+    background-color: red;
+    font-family: 'Space Mono', monospace;
+    font-size:20px;
+    min-width: 162px;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 4px;
+}
+.ordinary {
+    min-width: 165px;
+    background-color: green;
+    font-family: 'Space Mono', monospace;
+    font-size:20px;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.active:hover {
+    color: yellow;
+}
+
+.inactive{
+    display: none;
+}
+
